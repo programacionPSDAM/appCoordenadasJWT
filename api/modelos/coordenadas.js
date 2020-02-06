@@ -29,4 +29,4 @@ const CoordenadaSchema = new Schema({
   },
 }, {versionKey : false});
 
-module.exports = mongoose.model('Coordenadas', CoordenadaSchema)
+module.exports = mongoose.model('Coordenada', CoordenadaSchema)

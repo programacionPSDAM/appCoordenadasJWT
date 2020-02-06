@@ -8,7 +8,7 @@ module.exports= {
             email    : req.body.email,
             password : req.body.password
         }    
-        console.log(usuarioNuevo)
+      //  console.log(usuarioNuevo)
         usuario.create(usuarioNuevo, (err, result) => {
             if (err) res.status(500).json({error: 'fallo servidor'})
             res.status(201).json(result)

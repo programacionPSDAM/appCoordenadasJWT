@@ -10,7 +10,7 @@ app.set('secretKey', 'valorVariable');
 
 // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://172.17.0.2/dbGeografica', 
+mongoose.connect('mongodb://mongodb:27017/ejemplo', 
 { useNewUrlParser: true, useUnifiedTopology: true });
 
 app.get('/', (req, res) => {
